@@ -133,6 +133,7 @@ fontInput.on('change', addFont);
 let colorInput = $(".color-btn blue");
 function addColor() {
     let newColor = colorInput.data("data-color");
+    let newColor = $("data-")
     invitation.changeBackgroundColor(newColor);
 }
 colorInput.on('click', addColor);
